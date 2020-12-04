@@ -1,0 +1,132 @@
+* {
+    font-family: Helvetica;
+}
+
+
+
+.boite-phrase-voiture-champ { /* div qui encadre mes span */
+    position: relative;
+    z-index: 1;
+}
+
+
+.phrase-sur-voiture1 { /* Span Bienvenue a bord*/
+    position: absolute;
+    z-index: 3;
+    left: 36%;
+    top: 5%;
+    color: white;
+    font-size: 7vh;
+}
+
+.phrase-sur-voiture { /* Span 24/24 7/7 */
+    position: absolute;
+    z-index: 2;
+    left: 40%;
+    top: 19%;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.champs { /*parent de tout mes champs */
+    position: absolute;
+    z-index: 2;
+    left: 15%;
+    top: 55%;
+    color: white;
+    font-size: 2.5vh;
+    border: 1px solid grey;
+    border-radius: 2%;
+    background-color: grey;
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+
+
+.champ { /*debut et fin location */
+    width: 25%;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 5%;
+}
+
+
+.champ-vert { /*bouton vert header */
+    background-color: green;
+    
+}
+
+
+.conteneur { width: 640px; margin: 0 auto; padding: 20px; }
+            #carousel { position: relative; overflow: hidden; width: 640px; height: 350px;}
+            #carousel img { position: absolute; top: 0; left: 0; width: 640px; height: 350px; opacity: 0; transition: all 1s ease; }
+            #carre { width: 140px; height: 140px;}
+
+li {   /* liste puce*/
+    list-style:none;
+}
+
+.flex-resultat-bouton { /*class similaire pour resultat et bouton croissant */
+    display: flex;
+    justify-content: space-between;
+}
+
+.resultat7 {   /*phrase 7 résultat */
+    margin-bottom: -20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+select { /*bouton croissant */
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #c5bebe 0%, #ffffff 74%);
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+#titre { /* titre audi opel toussa */
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.descriptif { /* pour mettre span et bouton de liste en block */
+    display: block;
+    line-height: 36px;
+}
+
+#bouton { /*css sur les boutons vert */
+    color: white;
+    background-color: rgb(38, 172, 38);
+    border: 1px solid green;
+    border-radius: 5%;
+    width: 30%;
+}
+
+
+.flex-image-texte { /*parent qui regroupe mon image et mon texte de l'agence pour space around*/
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-agence {  /*image de l'agence */
+    width: 200px;
+    height: auto;
+}
+
+.texte-footer {  /*texte de l'agence */
+    display: block;
+}
+
