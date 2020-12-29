@@ -46,4 +46,18 @@ $(window).scroll(function() {
                 <button class="descriptif" type="button" id="bouton">Réserver et Payer</button>
 
             </div>
-        </div>tegeg
+        </div>
+
+        <hr>
+
+
+        </div>`)
+        }
+    
+    });
+    
+    $('.carousel').carousel({
+        interval: 15000
+      
+      })
+    
