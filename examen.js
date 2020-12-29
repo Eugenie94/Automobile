@@ -46,4 +46,4 @@ $(window).scroll(function() {
                 <button class="descriptif" type="button" id="bouton">Réserver et Payer</button>
 
             </div>
-        </div>
+        </div>tegeg
