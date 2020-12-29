@@ -47,32 +47,3 @@ $(window).scroll(function() {
 
             </div>
         </div>
-
-        <hr>
-        <div class="row align-items-center mb-5 mt-5">
-            <div class="col sm-6">
-                <li><img src=${'img/vehicule4.png'} alt="opel"></li>
-
-            </div>
-            <div class="col sm-6">
-                <span class="descriptif" id="titre">Opel Mokka</span>
-                <span class="descriptif">Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,4/km
-                    supplémentaire).</span>
-                <span class="descriptif">1 150 € - Agence de Paris</span>
-                <button class="descriptif" type="button" id="bouton">Réserver et Payer</button>
-            </div>
-        </div>
-        <hr>
-
-
-    </div>`)
-    }
-
-});
-
-$('.carousel').carousel({
-    interval: 15000
-  
-  })
-
-
