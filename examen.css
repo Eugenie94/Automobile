@@ -130,5 +130,9 @@ select { /*bouton croissant */
     display: block;
 }
 
+footer{
+    position: fixed;
+}
+
 
 
