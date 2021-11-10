@@ -19,6 +19,6 @@ Ce projet a été créer à partir des technologies suivantes :
 - JQuery
 
 
-  -------------------------------------------------- Aperçu du site web --------------------------------------------------
+--------------------------------------------------- Aperçu du site web ---------------------------------------------------
 
 ![img1](https://user-images.githubusercontent.com/58372973/141204111-ae8a0892-649e-45de-96c5-34981cfafdf8.png)
