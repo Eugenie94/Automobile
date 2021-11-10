@@ -18,6 +18,7 @@ Ce projet a été créer à partir des technologies suivantes :
 - JavaScript
 - JQuery
 
+Url du projet : https://examen-js.netlify.app/
 
 --------------------------------------------------- Aperçu du site web ---------------------------------------------------
 
